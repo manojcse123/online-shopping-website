@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/registerform.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="./homepage/logo.jfif" alt="Logo" class="logo-img">
+                <span class="logo-name">Tyso</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./explore.html">Explore</a></li>
+                    <li><a href="./register.html">Login</a></li>
+             </ul>
+        </nav>
+        </div>
+    </header>
+    <div class="register-container">
+        <div class="title"><center><h1 style="margin-top: 100px;">login</h1></center></div>
+        <div class="input-group-reg" style="height:350px">
+              <div>
+                <label for="name">Enter your name</label>
+                <input type="text" name="name" id ="name"placeholder=" ">
+                <div class="error"></div>
+              </div>
+              
+              
+              <div>
+                <label for="name">Enter your password</label>
+                <input type="password" name="password" id = "password" placeholder="">
+                <div class="error"></div>
+              </div>
+              
+              <div class="buttons-reg">
+                <div><button class="back" onclick="redirectregister()">back</button></div>
+            <div class="submit"><button type ="submit">Submit</button></div>
+              </div>
+             <br><br><br><br><br>
+        </div>
+    </div>
+    <script>
+        function redirectregister(){
+            window.location.href = "index.html";
+        }
+    </script>
+    </body>

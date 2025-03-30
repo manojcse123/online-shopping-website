@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    margin :100px auto auto auto;
+    background-color:#666;;
+    border-radius:30px;
+    width:400px;
+    /* background-image: url(./homepage/logo.jfif) center center fixed; */
+    background:rgb(0,0,0,0.5px);
+    background-repeat: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+.main h1{
+    text-align:center;
+    color:white;
+    font-family:sans-serif;
+    margin-top:100px;
+}
+.login{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    height:120px;
+    padding-right: 100px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:#333;
+    align-items:center;
+}
+
+.login button{
+    height: 50px;
+    width:105px;
+    border-radius:12px;
+    background-color:rgb(193, 43, 43);
+    border:none;
+    font-size: 16px;
+    font-weight: bolder;
+    color:white;
+    transition:0.6s ease;
+
+}
+
+.login button:hover{
+    height:55px;
+    width:110px;
+    color:white;
+    background-color:rgb(26, 26, 164);
+    font-size:18px;
+}
+.login button:active{
+    color:black;
+}
